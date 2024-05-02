@@ -7,11 +7,9 @@ import edu.gabriel.bank.Bank;
 import edu.gabriel.individual.Client;
 import edu.gabriel.individual.Person;
 
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         Bank bank = new Bank();
 
         Account ac1 = new CheckingAccount(1000, "12345", "asdfg", 500);
